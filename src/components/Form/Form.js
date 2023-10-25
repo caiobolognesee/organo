@@ -1,6 +1,7 @@
 import "./Form.css"
 import TextField from '../TextField'
 import SelectBox from "../SelectBox"
+import  Button from "../Button"
 
 
 export const Form = () => {
@@ -23,6 +24,7 @@ export const Form = () => {
         <TextField label="Cargo" placeholder="Digite seu Cargo..." />
         <TextField label="Imagem" placeholder="Digire o endereço da imagem..." />
         <SelectBox label="Time" items={teams}></SelectBox>
+        <Button>Criar Card</Button>
       </form>
     </section>
   )
